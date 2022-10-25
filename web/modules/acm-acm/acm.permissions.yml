@@ -1,0 +1,9 @@
+administer api credentials:
+  title: 'Administer API credentials'
+  description: 'Administer API credentials'
+  restrict access: TRUE
+
+administer api environment:
+  title: 'Administer API environment'
+  description: 'Administer API environment'
+  restrict access: TRUE

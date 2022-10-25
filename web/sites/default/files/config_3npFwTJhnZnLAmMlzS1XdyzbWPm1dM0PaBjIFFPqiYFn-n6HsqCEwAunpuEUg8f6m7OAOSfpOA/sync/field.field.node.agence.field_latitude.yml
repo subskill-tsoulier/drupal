@@ -1,0 +1,23 @@
+uuid: a06733ec-949e-415e-ae0a-5c34c1cf494a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_latitude
+    - node.type.agence
+id: node.agence.field_latitude
+field_name: field_latitude
+entity_type: node
+bundle: agence
+label: Latitude
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

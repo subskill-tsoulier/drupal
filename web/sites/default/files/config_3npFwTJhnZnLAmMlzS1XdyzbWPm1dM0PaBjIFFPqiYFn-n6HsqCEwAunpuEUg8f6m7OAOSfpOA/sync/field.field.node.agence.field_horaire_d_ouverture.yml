@@ -1,0 +1,21 @@
+uuid: a453e172-2b6a-43c5-8a9c-6e7de8e2c649
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horaire_d_ouverture
+    - node.type.agence
+id: node.agence.field_horaire_d_ouverture
+field_name: field_horaire_d_ouverture
+entity_type: node
+bundle: agence
+label: 'Horaire d''ouverture'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1666274399
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

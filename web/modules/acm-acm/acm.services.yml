@@ -1,0 +1,7 @@
+services:
+  acm.info_manager:
+    class: Drupal\acm\AcmInfoManager
+    arguments: ['@module_handler']
+  acm.credentials_manager:
+    class: Drupal\acm\AcmCredentialsManager
+    arguments: ['@config.factory', '@encryption', '@entity_type.manager', '@acm.info_manager']

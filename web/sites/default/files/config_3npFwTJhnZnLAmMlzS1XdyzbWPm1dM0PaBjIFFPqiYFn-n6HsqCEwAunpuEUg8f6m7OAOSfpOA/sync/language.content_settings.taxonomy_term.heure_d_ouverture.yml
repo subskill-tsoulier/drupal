@@ -1,0 +1,11 @@
+uuid: f309977b-586c-417a-a285-3e5f919eac9d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.heure_d_ouverture
+id: taxonomy_term.heure_d_ouverture
+target_entity_type_id: taxonomy_term
+target_bundle: heure_d_ouverture
+default_langcode: site_default
+language_alterable: false

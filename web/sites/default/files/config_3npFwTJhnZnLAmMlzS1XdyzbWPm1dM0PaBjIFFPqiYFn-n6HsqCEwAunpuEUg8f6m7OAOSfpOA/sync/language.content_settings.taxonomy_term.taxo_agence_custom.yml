@@ -1,0 +1,11 @@
+uuid: 8ee1c441-34d1-410c-9899-3c3959679773
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.taxo_agence_custom
+id: taxonomy_term.taxo_agence_custom
+target_entity_type_id: taxonomy_term
+target_bundle: taxo_agence_custom
+default_langcode: site_default
+language_alterable: true

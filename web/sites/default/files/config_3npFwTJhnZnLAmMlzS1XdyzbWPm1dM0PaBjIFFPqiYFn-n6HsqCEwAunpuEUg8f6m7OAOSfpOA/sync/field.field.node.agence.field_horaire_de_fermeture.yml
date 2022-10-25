@@ -1,0 +1,21 @@
+uuid: 3bccced7-d3a7-4a09-aa6f-5c0e64d8f260
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horaire_de_fermeture
+    - node.type.agence
+id: node.agence.field_horaire_de_fermeture
+field_name: field_horaire_de_fermeture
+entity_type: node
+bundle: agence
+label: 'Horaire de fermeture'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1666274408
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

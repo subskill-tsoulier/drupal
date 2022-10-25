@@ -1,0 +1,9 @@
+acm.config:
+  path: '/admin/config/services/api_credentials_manager'
+  defaults:
+    _form: '\Drupal\acm\Form\AcmConfigForm'
+    _title: 'API Credentials'
+  requirements:
+    _permission: 'administer api credentials'
+  options:
+    _admin_route: TRUE

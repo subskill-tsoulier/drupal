@@ -1,0 +1,23 @@
+uuid: 6bf286df-9acc-44ae-9816-97ed0cd84d60
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code_postal
+    - node.type.agence
+id: node.agence.field_code_postal
+field_name: field_code_postal
+entity_type: node
+bundle: agence
+label: 'Code postal'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

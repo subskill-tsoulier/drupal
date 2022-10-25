@@ -1,0 +1,19 @@
+uuid: afe16523-1abb-46e5-a870-468f89e6a068
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pays
+    - node.type.agence
+id: node.agence.field_pays
+field_name: field_pays
+entity_type: node
+bundle: agence
+label: Pays
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

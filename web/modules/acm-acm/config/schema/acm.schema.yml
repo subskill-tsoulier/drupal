@@ -1,0 +1,10 @@
+acm.credentials.*:
+  label: 'API Credentials Manager environment credentials storage'
+  type: config_object
+  mapping:
+    credentials:
+      label: 'Environment'
+      type: sequence
+      sequence:
+        label: 'Data'
+        type: string

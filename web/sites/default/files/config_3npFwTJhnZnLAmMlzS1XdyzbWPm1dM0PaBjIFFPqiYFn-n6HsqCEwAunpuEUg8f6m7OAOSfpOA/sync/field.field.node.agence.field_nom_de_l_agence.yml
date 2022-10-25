@@ -1,0 +1,19 @@
+uuid: d11cf525-3331-48e5-8bc7-ad2128d704e2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nom_de_l_agence
+    - node.type.agence
+id: node.agence.field_nom_de_l_agence
+field_name: field_nom_de_l_agence
+entity_type: node
+bundle: agence
+label: 'Nom de l''agence'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 20bc0570-f198-4d1f-b53f-1d8d6ec61a74
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.agence
+id: node.agence.field_email
+field_name: field_email
+entity_type: node
+bundle: agence
+label: email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

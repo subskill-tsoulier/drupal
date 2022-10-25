@@ -1,0 +1,8 @@
+uuid: bf4d2c57-bdce-4cd1-a9be-b84eccaf8797
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Heure d''ouverture'
+vid: heure_d_ouverture
+description: 'Taxonomie pour l''heure d''ouverture'
+weight: 0

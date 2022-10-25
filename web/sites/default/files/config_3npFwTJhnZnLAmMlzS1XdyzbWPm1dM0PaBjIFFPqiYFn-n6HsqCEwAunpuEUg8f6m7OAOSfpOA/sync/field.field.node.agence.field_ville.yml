@@ -1,0 +1,19 @@
+uuid: b0746a52-ec0b-477a-9f5b-e0da38d843b1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ville
+    - node.type.agence
+id: node.agence.field_ville
+field_name: field_ville
+entity_type: node
+bundle: agence
+label: Ville
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

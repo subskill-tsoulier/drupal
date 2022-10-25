@@ -1,0 +1,23 @@
+uuid: 4c73b91e-c95e-41ad-bbcb-ecb0e6fa2e6c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_longitude
+    - node.type.agence
+id: node.agence.field_longitude
+field_name: field_longitude
+entity_type: node
+bundle: agence
+label: Longitude
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

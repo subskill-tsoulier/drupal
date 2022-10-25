@@ -1,0 +1,10 @@
+name: API credentials manager
+description: Manage API credentials between environments.
+type: module
+package: Other
+core_version_requirement: '^8.8 || ^9'
+dependencies:
+  - encrypt:encrypt
+
+version: '1.0.x'
+project: 'acm'

@@ -1,0 +1,183 @@
+uuid: 5b95c88e-eaa2-4d85-802e-8095709691bc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.agence.field_code_postal
+    - field.field.node.agence.field_email
+    - field.field.node.agence.field_horaire_d_ouverture
+    - field.field.node.agence.field_horaire_de_fermeture
+    - field.field.node.agence.field_latitude
+    - field.field.node.agence.field_longitude
+    - field.field.node.agence.field_ndeg_de_rue
+    - field.field.node.agence.field_ndeg_de_telephone
+    - field.field.node.agence.field_nom_de_l_agence
+    - field.field.node.agence.field_nom_de_la_rue
+    - field.field.node.agence.field_pays
+    - field.field.node.agence.field_thumbnail_custom
+    - field.field.node.agence.field_ville
+    - image.style.thumbnail
+    - node.type.agence
+  module:
+    - image
+    - path
+id: node.agence.default
+targetEntityType: node
+bundle: agence
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_code_postal:
+    type: number
+    weight: 132
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_email:
+    type: email_default
+    weight: 128
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_horaire_d_ouverture:
+    type: datetime_timestamp
+    weight: 124
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_horaire_de_fermeture:
+    type: datetime_timestamp
+    weight: 125
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_latitude:
+    type: number
+    weight: 126
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_longitude:
+    type: number
+    weight: 127
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_ndeg_de_rue:
+    type: number
+    weight: 130
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_ndeg_de_telephone:
+    type: string_textfield
+    weight: 136
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nom_de_l_agence:
+    type: string_textfield
+    weight: 135
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_nom_de_la_rue:
+    type: string_textfield
+    weight: 131
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pays:
+    type: string_textfield
+    weight: 134
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_thumbnail_custom:
+    type: image_image
+    weight: 123
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_ville:
+    type: string_textfield
+    weight: 133
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

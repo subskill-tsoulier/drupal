@@ -1,0 +1,20 @@
+uuid: 6da042eb-a971-4cb8-a4f9-1d5076881fec
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ndeg_de_rue
+field_name: field_ndeg_de_rue
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

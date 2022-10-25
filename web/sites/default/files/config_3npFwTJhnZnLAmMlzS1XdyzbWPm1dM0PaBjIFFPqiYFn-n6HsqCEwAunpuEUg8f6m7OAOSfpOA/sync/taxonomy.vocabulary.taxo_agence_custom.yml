@@ -1,0 +1,8 @@
+uuid: 751b6c5e-04d1-454c-a107-1c5143e089af
+langcode: fr
+status: true
+dependencies: {  }
+name: Agence
+vid: taxo_agence_custom
+description: 'Taxonomie pour les agences'
+weight: 0

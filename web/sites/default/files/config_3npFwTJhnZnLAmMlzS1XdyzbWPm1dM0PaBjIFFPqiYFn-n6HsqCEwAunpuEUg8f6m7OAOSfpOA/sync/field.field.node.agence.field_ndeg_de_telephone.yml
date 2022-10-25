@@ -1,0 +1,19 @@
+uuid: ae2471c9-37c6-4214-b9b0-1cfe69aa0ad2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ndeg_de_telephone
+    - node.type.agence
+id: node.agence.field_ndeg_de_telephone
+field_name: field_ndeg_de_telephone
+entity_type: node
+bundle: agence
+label: 'N° de téléphone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

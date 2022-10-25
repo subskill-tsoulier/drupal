@@ -1,0 +1,19 @@
+uuid: 848e775a-a225-4560-a83e-8ea1bbe56a1a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nom_de_la_rue
+    - node.type.agence
+id: node.agence.field_nom_de_la_rue
+field_name: field_nom_de_la_rue
+entity_type: node
+bundle: agence
+label: 'Nom de la rue'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,47 @@
+uuid: 3eaf1fb2-d1d8-4984-afaa-3361d2010e2b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.agence.field_code_postal
+    - field.field.node.agence.field_email
+    - field.field.node.agence.field_horaire_d_ouverture
+    - field.field.node.agence.field_horaire_de_fermeture
+    - field.field.node.agence.field_latitude
+    - field.field.node.agence.field_longitude
+    - field.field.node.agence.field_ndeg_de_rue
+    - field.field.node.agence.field_ndeg_de_telephone
+    - field.field.node.agence.field_nom_de_l_agence
+    - field.field.node.agence.field_nom_de_la_rue
+    - field.field.node.agence.field_pays
+    - field.field.node.agence.field_thumbnail_custom
+    - field.field.node.agence.field_ville
+    - node.type.agence
+  module:
+    - user
+id: node.agence.teaser
+targetEntityType: node
+bundle: agence
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_code_postal: true
+  field_email: true
+  field_horaire_d_ouverture: true
+  field_horaire_de_fermeture: true
+  field_latitude: true
+  field_longitude: true
+  field_ndeg_de_rue: true
+  field_ndeg_de_telephone: true
+  field_nom_de_l_agence: true
+  field_nom_de_la_rue: true
+  field_pays: true
+  field_thumbnail_custom: true
+  field_ville: true
+  langcode: true

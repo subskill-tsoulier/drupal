@@ -1,0 +1,152 @@
+uuid: 250b3c1e-ba44-4469-a46d-7ba4df3e9ba5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.agence.field_code_postal
+    - field.field.node.agence.field_email
+    - field.field.node.agence.field_horaire_d_ouverture
+    - field.field.node.agence.field_horaire_de_fermeture
+    - field.field.node.agence.field_latitude
+    - field.field.node.agence.field_longitude
+    - field.field.node.agence.field_ndeg_de_rue
+    - field.field.node.agence.field_ndeg_de_telephone
+    - field.field.node.agence.field_nom_de_l_agence
+    - field.field.node.agence.field_nom_de_la_rue
+    - field.field.node.agence.field_pays
+    - field.field.node.agence.field_thumbnail_custom
+    - field.field.node.agence.field_ville
+    - node.type.agence
+  module:
+    - image
+    - user
+id: node.agence.default
+targetEntityType: node
+bundle: agence
+mode: default
+content:
+  field_code_postal:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_horaire_d_ouverture:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_horaire_de_fermeture:
+    type: timestamp
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_latitude:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_longitude:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_ndeg_de_rue:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_ndeg_de_telephone:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 116
+    region: content
+  field_nom_de_l_agence:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 115
+    region: content
+  field_nom_de_la_rue:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_pays:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_thumbnail_custom:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ville:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

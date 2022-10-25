@@ -1,0 +1,18 @@
+uuid: 4eb8d8f6-0036-42c7-a21b-5a4337f11752
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.agence
+id: node.agence.title
+field_name: title
+entity_type: node
+bundle: agence
+label: Agence
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

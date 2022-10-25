@@ -1,0 +1,23 @@
+uuid: 316ca791-70ca-4637-9ba0-a5b3e064a11a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ndeg_de_rue
+    - node.type.agence
+id: node.agence.field_ndeg_de_rue
+field_name: field_ndeg_de_rue
+entity_type: node
+bundle: agence
+label: 'N° de rue'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
