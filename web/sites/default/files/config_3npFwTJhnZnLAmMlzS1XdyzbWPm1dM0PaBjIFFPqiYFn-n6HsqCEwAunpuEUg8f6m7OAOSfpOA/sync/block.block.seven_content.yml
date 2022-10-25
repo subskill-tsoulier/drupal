@@ -1,15 +1,15 @@
-uuid: adc23160-52f7-45ce-a912-bcf7f124bd4a
+uuid: 6023afdd-ee20-4f47-b7f9-5e536161b9c5
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - seven
 _core:
-  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
-id: olivero_content
-theme: olivero
+  default_config_hash: 6_eJxtyfANKFE_nfriHKgrARRIPHH88sI6jvQ4EHbBc
+id: seven_content
+theme: seven
 region: content
 weight: 0
 provider: null

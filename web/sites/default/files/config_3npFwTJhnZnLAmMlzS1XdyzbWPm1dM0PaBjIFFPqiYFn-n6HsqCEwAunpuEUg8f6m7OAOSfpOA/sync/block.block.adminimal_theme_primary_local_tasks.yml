@@ -1,0 +1,31 @@
+uuid: f3c629d5-bd5f-4104-b095-b1e15238ad66
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - adminimal_theme
+_core:
+  default_config_hash: CyX_aDKAka2_eihevNLscCHDYrzDgIqwWzFVEFRKIww
+id: adminimal_theme_primary_local_tasks
+theme: adminimal_theme
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Nos agences'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      header: header

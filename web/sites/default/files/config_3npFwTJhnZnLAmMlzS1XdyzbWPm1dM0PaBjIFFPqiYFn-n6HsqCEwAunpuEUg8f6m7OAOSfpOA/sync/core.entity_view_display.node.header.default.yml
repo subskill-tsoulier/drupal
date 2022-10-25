@@ -1,0 +1,47 @@
+uuid: cf980e82-4b98-4d31-ad7c-989086c6bb7e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.header.field_accueil
+    - field.field.node.header.field_nos_agences
+    - node.type.header
+  module:
+    - link
+    - user
+id: node.header.default
+targetEntityType: node
+bundle: header
+mode: default
+content:
+  field_accueil:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_nos_agences:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

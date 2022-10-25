@@ -1,0 +1,25 @@
+uuid: 90a57e55-11df-4eaa-956b-c653b3e303c6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.header.field_accueil
+    - field.field.node.header.field_nos_agences
+    - node.type.header
+  module:
+    - user
+id: node.header.teaser
+targetEntityType: node
+bundle: header
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_accueil: true
+  field_nos_agences: true
+  langcode: true

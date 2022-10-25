@@ -1,0 +1,28 @@
+uuid: 15b25bf8-2352-4a99-ac9c-0f468d50e9b9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_accueil
+    - node.type.header
+  module:
+    - link
+id: node.header.field_accueil
+field_name: field_accueil
+entity_type: node
+bundle: header
+label: Accueil
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/accueil'
+    title: ''
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 1
+field_type: link
